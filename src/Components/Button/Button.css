@@ -1,0 +1,25 @@
+.btn{
+    padding: 10px 20px;
+    color: '';
+    border: 'none';
+    border: 1px solid rgba(103, 103, 103, 0.247);
+    cursor: pointer;
+    text-transform: capitalize;
+    transition: all 0.3s ease;
+  }
+  .btn:hover {
+    border: 1px solid black
+  }
+
+  @media screen and (max-width: 776px){
+    .btn {
+      padding: 5px 10px;
+    }
+}
+
+@media screen and (max-width: 476px){
+  .btn {
+    font-size: 12px;
+    padding: 2px 5px;
+  }
+}

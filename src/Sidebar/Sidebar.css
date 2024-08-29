@@ -1,0 +1,41 @@
+.sidebar {
+    position: sticky;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cart-icon {
+    margin: 1rem 0;
+}
+
+.cart-icon .icon {
+    width: 25px;
+    height: 25px;
+    opacity: 1;
+}
+
+.filter-type {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+@media screen and (max-width: 676px){
+    .sidebar {
+        padding:0 20px;
+    }
+}
+@media screen and (max-width: 476px){
+    .sidebar {
+        padding: 0 10px;
+    }
+
+    .cart-icon {
+        margin-top: .7rem;
+    }
+    .filter-type {
+        gap: 20px;
+    }
+}

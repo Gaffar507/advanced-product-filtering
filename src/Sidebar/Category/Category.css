@@ -1,0 +1,18 @@
+
+.category-title {
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.category-items {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    margin-top: 10px;
+}
+
+@media screen and (max-width:476px){
+    .category-title {
+        font-size: 14px;
+    }
+}
